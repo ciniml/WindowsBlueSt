@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>WindowsBlueSt</id>
+    <version>0.1.0-pre2</version>
+    <title>WindowsBlueSt</title>
+    <authors>Kenta IDA</authors>
+    <owners>Kenta IDA</owners>
+    <description>STMicroelectronics BlueST implementation for Windows</description>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  
+  <files>
+    <file src="bin\Release\WindowsBlueSt.dll" target="lib\net45" />
+    <file src="bin\Release\WindowsBlueSt.pdb" target="lib\net45" />
+  </files>
+</package>

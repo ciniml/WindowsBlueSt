@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>WindowsBlueSt.WeSU</id>
+    <version>0.1.1-pre</version>
+    <title>WindowsBlueSt.WeSU</title>
+    <authors>Kenta IDA</authors>
+    <owners>Kenta IDA</owners>
+    <description>STEVAL-WeSU1 support package for WindowsBlueSt</description>
+    <dependencies>
+      <dependency id="WindowsBlueSt" version="0.1.0-pre"/>
+    </dependencies>
+  </metadata>
+  
+  <files>
+    <file src="bin\Release\WindowsBlueSt.WeSU.dll" target="lib\net45" />
+    <file src="bin\Release\WindowsBlueSt.WeSU.pdb" target="lib\net45" />
+  </files>
+</package>
